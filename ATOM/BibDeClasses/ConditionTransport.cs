@@ -9,6 +9,7 @@ namespace BibDeClasses
     public enum ConditionTransport : byte
     {
        
+        //test
         Air = 1,
         Oxygene = 2,
         Couveuse = 4 ,
