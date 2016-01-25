@@ -1,0 +1,16 @@
+C:\Users\ASUS\documents\visual studio 2015\Projects\ATOM\BibDeClasses\bin\Debug\BibDeClasses.dll
+C:\Users\ASUS\documents\visual studio 2015\Projects\ATOM\BibDeClasses\bin\Debug\BibDeClasses.pdb
+C:\Users\ASUS\documents\visual studio 2015\Projects\ATOM\BibDeClasses\obj\Debug\BibDeClasses.dll
+C:\Users\ASUS\documents\visual studio 2015\Projects\ATOM\BibDeClasses\obj\Debug\BibDeClasses.pdb
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\obj\Debug\BibDeClasses.csprojResolveAssemblyReference.cache
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\obj\Debug\BibDeClasses.dll
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\BibDeClasses.dll
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\BibDeClasses.pdb
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\mscorlib.dll
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\normidna.nlp
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\normnfc.nlp
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\normnfd.nlp
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\normnfkc.nlp
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\normnfkd.nlp
+C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\obj\Debug\BibDeClasses.pdb
