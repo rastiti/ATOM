@@ -21,6 +21,5 @@ namespace BibDeClasses
             this.nom = nom;
             this.prenom = prenom;
         }
-
     }
 }
