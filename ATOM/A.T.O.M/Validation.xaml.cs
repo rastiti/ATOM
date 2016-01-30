@@ -10,37 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace A.T.O.M
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour Validation.xaml
     /// </summary>
-    public partial class LoginPage : Window
+    public partial class Validation : Window
     {
-        public LoginPage()
+        public Validation()
         {
             InitializeComponent();
         }
 
-        private void Quitter(object sender, RoutedEventArgs e)
+        private void Annuler(object sender, RoutedEventArgs e)
         {
-            Close();
+            DialogResult=false;
         }
 
         private void Valider(object sender, RoutedEventArgs e)
         {
             //test pour savoir si la personne a accès a tel fenetre
-
-            //if(l'utilisateur est régulateur ou du service de soin )
-            DemandeEnCours demande = new DemandeEnCours();
-            Close();
-            if (demande.ShowDialog() == true)
-            {
-                   
-            }
         }
     }
 }

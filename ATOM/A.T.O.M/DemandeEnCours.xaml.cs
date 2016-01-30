@@ -26,5 +26,34 @@ namespace A.T.O.M
             ImageBrush myBrush = new ImageBrush();
             
         }
+
+        private void Creer(object sender, RoutedEventArgs e)
+        {
+            
+            
+        }
+
+        private void Modifier(object sender, RoutedEventArgs e)
+        {
+            Validation suppr = new Validation();
+            if (suppr.ShowDialog() == true)
+            {
+
+            }
+        }
+
+        private void Supprimer(object sender, RoutedEventArgs e)
+        {
+            Validation suppr = new Validation();
+            if (suppr.ShowDialog() == true)
+            {
+
+            }
+        }
+
+        private void Annuler(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

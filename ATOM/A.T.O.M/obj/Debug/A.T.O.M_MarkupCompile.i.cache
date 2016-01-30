@@ -4,28 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\Jordan\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\
-=======
-C:\Users\Pierre\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\
->>>>>>> origin/master
+C:\Users\ASUS\documents\visual studio 2015\Projects\ATOM\A.T.O.M\obj\Debug\
 A.T.O.M
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
-C:\Users\Jordan\Documents\GitHub\ATOM\ATOM\A.T.O.M\App.xaml
-2-476984444
+C:\Users\ASUS\documents\visual studio 2015\Projects\ATOM\A.T.O.M\App.xaml
+3-1279616426
 
-10878542697
-=======
-C:\Users\Pierre\Documents\GitHub\ATOM\ATOM\A.T.O.M\App.xaml
-2-476984444
-
-101799399857
->>>>>>> origin/master
-13-1142990016
-DemandeEnCours.xaml;LoginPage.xaml;
+11-77258281
+13738642453
+DemandeEnCours.xaml;LoginPage.xaml;Validation.xaml;
 
 True
 

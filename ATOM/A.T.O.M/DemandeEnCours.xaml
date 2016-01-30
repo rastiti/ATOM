@@ -4,16 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A.T.O.M"
-        Title="ATOM - Demande en Cours" Height="350" Width="525" >
-    
+        Title="ATOM - Demande en Cours" Height="350" Width="525"
+        Icon="/Images/Logo.ico"
+        Background="#4682B4">
+
     <Grid >
-        
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <StackPanel>
-            <TextBox ></TextBox>
+            <WrapPanel>
+                <Label>Rechercher :</Label>
+                <TextBox Height="20" Width="150"></TextBox>
+            </WrapPanel> 
             <ListBox Margin="10"></ListBox>
         </StackPanel>
         
@@ -37,10 +41,10 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 
-                <Button Margin="5">Créer</Button>
-                <Button Margin="5" Grid.Column="1">Modifier</Button>
-                <Button Margin="5" Grid.Row="1">Supprimer</Button>
-                <Button Margin="5" Grid.Column="1" Grid.Row="1">Annuler</Button>
+                <Button Margin="5" Click="Creer">Créer</Button>
+                <Button Margin="5" Grid.Column="1" Click="Modifier">Modifier</Button>
+                <Button Margin="5" Grid.Row="1" Click="Supprimer">Supprimer</Button>
+                <Button Margin="5" Grid.Column="1" Grid.Row="1" Click="Annuler">Annuler</Button>
             </Grid>
             
         </StackPanel>
