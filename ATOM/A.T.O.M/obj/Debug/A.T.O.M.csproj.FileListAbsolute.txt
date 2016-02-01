@@ -34,3 +34,5 @@ C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\Validation.baml
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.g.resources
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.Properties.Resources.resources
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\CreationDemande.g.cs
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\CreationDemande.baml

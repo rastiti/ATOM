@@ -30,7 +30,6 @@ namespace A.T.O.M
         private void Creer(object sender, RoutedEventArgs e)
         {
             
-            
         }
 
         private void Modifier(object sender, RoutedEventArgs e)

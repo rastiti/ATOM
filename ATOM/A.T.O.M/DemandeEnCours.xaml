@@ -6,8 +6,12 @@
         xmlns:local="clr-namespace:A.T.O.M"
         Title="ATOM - Demande en Cours" Height="350" Width="525"
         Icon="/Images/Logo.ico"
-        Background="#4682B4">
-    <DockPanel>
+        Background="#4682B4"
+        >
+    <DockPanel >
+        <DockPanel.Background>
+            <ImageBrush ImageSource="/Images/ambulanceRetouchee.png"/>
+        </DockPanel.Background>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Fichier">
                 <MenuItem Click="Deconnexion" Header="_Déconnexion"/>

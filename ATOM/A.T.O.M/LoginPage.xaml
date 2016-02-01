@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A.T.O.M"
         mc:Ignorable="d"
-        Title="A.T.O.M - Login" Height="350" Width="525" ResizeMode="NoResize"
-        Icon="/Images/Logo.ico">
-    <Grid Background="#4682B4">
+        Title="A.T.O.M - Authentification" Height="350" Width="525" ResizeMode="NoResize"
+        Icon="/Images/Logo.ico"
+         Background="#4682B4">
+    <Grid>
+        <Grid.Background >
+            <ImageBrush ImageSource="/Images/ambulanceRetouchee.png"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -19,11 +23,16 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        <Label FontWeight="Bold" FontFamily="Arial" FontSize="25" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">Connexion</Label>
-        <Label FontFamily="Arial" FontSize="15" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center">Login :</Label>
+        <Label Foreground="White" FontWeight="Bold" FontFamily="Arial" FontSize="25" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">Connexion</Label>
+        
+        
+        <Label Foreground="White" FontWeight="DemiBold" FontFamily="Arial" FontSize="15" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center">Identifiant:</Label>
         <TextBox FontFamily="Arial" Name="login" Grid.Row="1" Grid.Column="1" Height="20" Width="100" HorizontalAlignment="Left"></TextBox>
-        <Label FontFamily="Arial" FontSize="15" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">Mot de Passe :</Label>
+        
+        
+        <Label Foreground="White" FontWeight="DemiBold" FontFamily="Arial" FontSize="15" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center">Mot de Passe :</Label>
         <PasswordBox  Name="password" Grid.Row="2" Grid.Column="1" Height="20" Width="100" HorizontalAlignment="Left"></PasswordBox>
+        
         <Button Click="Valider"  FontFamily="Arial" Margin="20" Grid.Row="3">Valider</Button>
         <Button Click="Quitter" FontFamily="Arial" Margin="20" Grid.Row="3" Grid.Column="1">Quitter</Button>
     </Grid>
