@@ -29,7 +29,11 @@ namespace A.T.O.M
 
         private void Creer(object sender, RoutedEventArgs e)
         {
-            
+            CreationDemande creer = new CreationDemande();
+            if (creer.ShowDialog() == true)
+            {
+                
+            }
         }
 
         private void Modifier(object sender, RoutedEventArgs e)
@@ -40,19 +44,15 @@ namespace A.T.O.M
         private void Supprimer(object sender, RoutedEventArgs e)
         {
             Validation suppr = new Validation();
-            if (suppr.ShowDialog() == true)
-            {
-
-            }
+            suppr.ShowDialog();
+            
         }
 
         private void Annuler(object sender, RoutedEventArgs e)
         {
             Validation suppr = new Validation();
-            if (suppr.ShowDialog() == true)
-            {
-
-            }
+            suppr.ShowDialog();
+            
         }
 
         private void Deconnexion(object sender, RoutedEventArgs e)
