@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A.T.O.M"
         mc:Ignorable="d"
-        Title="ATOM - Créer Demande" Height="370" Width="450"
+        Title="ATOM - Créer Demande" Height="370" Width="600"
         Background="#4682B4">
     <DockPanel>
         <Label FontSize="25" FontWeight="Bold" DockPanel.Dock="Top" HorizontalAlignment="Center">Création Demande de Transport</Label>
-        <Grid VerticalAlignment="Center">
+        <Grid >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="2*"/>
@@ -44,9 +44,31 @@
                 <RadioButton Margin="5,0,0,0">5</RadioButton>
             </WrapPanel>
 
+            <Label Grid.Row="4" HorizontalAlignment="Right">Type de Trajet :</Label>
+            <ComboBox Grid.Row="4" Grid.Column="1" Margin="5"></ComboBox>
+
+            <Label Grid.Row="5" HorizontalAlignment="Right">Conditions de Transport :</Label>
+            <WrapPanel Grid.Row="5" Grid.Column="1">
+                <CheckBox Margin="5,7,0,0">Oxygène</CheckBox>
+                <CheckBox Margin="5,7,0,0">Contact</CheckBox>
+                <CheckBox Margin="5,7,0,0">Couveuse</CheckBox>
+                <CheckBox Margin="5,7,0,0">Isolement</CheckBox>
+                <CheckBox Margin="5,7,0,0">Air</CheckBox>
+            </WrapPanel>
+
+            <Label Grid.Row="6" HorizontalAlignment="Right">Contexte:</Label>
+            <WrapPanel Grid.Row="6" Grid.Column="1">
+                <CheckBox Margin="5,7,0,0">Accompagné</CheckBox>
+                <CheckBox Margin="5,7,0,0">A jeun</CheckBox>
+                <CheckBox Margin="5,7,0,0">Agité</CheckBox>
+                <CheckBox Margin="5,7,0,0">Documents</CheckBox>
+                <CheckBox Margin="5,7,0,0">Bagages</CheckBox>
+            </WrapPanel>
+
             <Label Grid.Row="7" HorizontalAlignment="Right">Commentaire :</Label>
             <TextBox Grid.Row="7" Grid.Column="1" Margin="5" TextWrapping="Wrap" MaxLength="216" MinHeight="130"></TextBox>
-            <WrapPanel Grid.ColumnSpan="2" Grid.Row="8" HorizontalAlignment="Center">
+            
+            <WrapPanel Grid.Row="8" Grid.ColumnSpan="2" HorizontalAlignment="Center">
                 <Button Margin="5" Width="100">Valider</Button>
                 <Button Margin="5" Width="100">Annuler</Button>
             </WrapPanel>
