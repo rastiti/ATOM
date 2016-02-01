@@ -35,11 +35,7 @@ namespace A.T.O.M
 
         private void Modifier(object sender, RoutedEventArgs e)
         {
-            Validation suppr = new Validation();
-            if (suppr.ShowDialog() == true)
-            {
-
-            }
+            
         }
 
         private void Supprimer(object sender, RoutedEventArgs e)
@@ -53,6 +49,19 @@ namespace A.T.O.M
 
         private void Annuler(object sender, RoutedEventArgs e)
         {
+            Validation suppr = new Validation();
+            if (suppr.ShowDialog() == true)
+            {
+
+            }
+        }
+
+        private void Deconnexion(object sender, RoutedEventArgs e)
+        {
+            LoginPage login = new LoginPage();
+            DialogResult = false;
+            Close();
+            login.ShowDialog();
 
         }
     }

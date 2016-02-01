@@ -7,47 +7,53 @@
         Title="ATOM - Demande en Cours" Height="350" Width="525"
         Icon="/Images/Logo.ico"
         Background="#4682B4">
-
-    <Grid >
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <StackPanel>
-            <WrapPanel>
-                <Label>Rechercher :</Label>
-                <TextBox Height="20" Width="150"></TextBox>
-            </WrapPanel> 
-            <ListBox Margin="10"></ListBox>
-        </StackPanel>
-        
-        <StackPanel Grid.Column="1">
-            
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Fichier">
+                <MenuItem Click="Deconnexion" Header="_Déconnexion"/>
+            </MenuItem>
+        </Menu>
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
             <StackPanel>
-                <WrapPanel HorizontalAlignment="Center" >
-                    <Label >Nom :</Label>
-                    <TextBlock Margin="5">Contenu Nom</TextBlock>
+                <WrapPanel>
+                    <Label>Rechercher :</Label>
+                    <TextBox Height="20" Width="150"></TextBox>
                 </WrapPanel>
+                <ListBox Margin="10"></ListBox>
             </StackPanel>
 
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1">
 
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                
-                <Button Margin="5" Click="Creer">Créer</Button>
-                <Button Margin="5" Grid.Column="1" Click="Modifier">Modifier</Button>
-                <Button Margin="5" Grid.Row="1" Click="Supprimer">Supprimer</Button>
-                <Button Margin="5" Grid.Column="1" Grid.Row="1" Click="Annuler">Annuler</Button>
-            </Grid>
-            
-        </StackPanel>
-    </Grid>
-   
+                <StackPanel>
+                    <WrapPanel HorizontalAlignment="Center" >
+                        <Label >Nom :</Label>
+                        <TextBlock Margin="5">Contenu Nom</TextBlock>
+                    </WrapPanel>
+                </StackPanel>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Button Margin="5" Click="Creer">Créer</Button>
+                    <Button Margin="5" Grid.Column="1" Click="Modifier">Modifier</Button>
+                    <Button Margin="5" Grid.Row="1" Click="Supprimer">Supprimer</Button>
+                    <Button Margin="5" Grid.Column="1" Grid.Row="1" Click="Annuler">Annuler</Button>
+                </Grid>
+
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+
 </Window>
