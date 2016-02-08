@@ -16,9 +16,13 @@
             <MenuItem Header="Fichier">
                 <MenuItem Click="Deconnexion" Header="_Déconnexion"/>
             </MenuItem>
+            <MenuItem Header="Dégradé">
+                <MenuItem Header="_Régulateur"/>
+                <MenuItem Header="_Ambulancier"/>
+            </MenuItem>
         </Menu>
         <WrapPanel DockPanel.Dock="Top">
-            <Label Foreground="White">Connecté en tant que : </Label>
+            <Label Foreground="White">Connecté en tant que Personnel : </Label>
             <TextBlock Foreground="White"></TextBlock>
         </WrapPanel>
         <Grid >
