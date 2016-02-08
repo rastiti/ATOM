@@ -23,7 +23,7 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Foreground="White" FontWeight="Bold" FontFamily="Arial" FontSize="25" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">Connexion</Label>
+        <Label Foreground="White" FontWeight="Bold" FontFamily="Arial" FontSize="25" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">Authentification</Label>
         
         
         <Label Foreground="White" FontWeight="DemiBold" FontFamily="Arial" FontSize="15" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center">Identifiant:</Label>

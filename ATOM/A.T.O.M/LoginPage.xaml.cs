@@ -35,7 +35,7 @@ namespace A.T.O.M
             //test pour savoir si la personne a accès a tel fenetre
 
             //if(l'utilisateur est régulateur ou du service de soin )
-            DemandeEnCours demande = new DemandeEnCours();
+            DemandeATraiter demande = new DemandeATraiter();
             Close();
             if (demande.ShowDialog() == true)
             {

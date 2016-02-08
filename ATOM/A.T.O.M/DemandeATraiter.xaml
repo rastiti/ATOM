@@ -1,4 +1,4 @@
-﻿<Window x:Class="A.T.O.M.DemandeEnCours"
+﻿<Window x:Class="A.T.O.M.DemandeATraiter"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -17,37 +17,38 @@
                 <MenuItem Click="Deconnexion" Header="_Déconnexion"/>
             </MenuItem>
         </Menu>
-        <Grid >
+        
+        <StackPanel HorizontalAlignment="Center" DockPanel.Dock="Bottom">
+            <WrapPanel VerticalAlignment="Center">
+                <Button Margin="5" Width="200" >Programmer</Button>
+                <Button Margin="5" Grid.Column="1" Width="200" >Modifier</Button>
+            </WrapPanel>
+            <WrapPanel>
+                <Button Margin="5" Grid.Row="1" Width="200">Supprimer</Button>
+                <Button Margin="5" Grid.Column="1" Grid.Row="1" Width="200" >Annuler</Button>
+            </WrapPanel>
+        </StackPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <StackPanel>
-                <WrapPanel>
-                    <Label>Rechercher :</Label>
-                    <TextBox Height="20" Width="150"></TextBox>
-                </WrapPanel>
-                <ListBox Margin="10"></ListBox>
-            </StackPanel>
 
-            <StackPanel Grid.Column="1">
+            <Label Foreground="White" FontWeight="DemiBold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center">Demandes à Programmer</Label>
+            <ListBox Grid.Row="1" Margin="5">
+            </ListBox>
 
-                
+            <Label Foreground="White" FontWeight="DemiBold" FontSize="15" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Demandes Programmées</Label>
+            <ListBox Grid.Row="1" Grid.Column="1" Margin="5">
+            </ListBox>
+        </Grid>
 
-                
-                    
-            </StackPanel>
-           
-        </Grid> <StackPanel DockPanel.Dock="Bottom" >
-            <WrapPanel>
-                <Button Margin="5" Click="Creer">Créer</Button>
-                <Button Margin="5" Grid.Column="1" Click="Modifier">Modifier</Button>
-            </WrapPanel>
-            <WrapPanel>
-                <Button Margin="5" Grid.Row="1" Click="Supprimer">Supprimer</Button>
-                <Button Margin="5" Grid.Column="1" Grid.Row="1" Click="Annuler">Annuler</Button>
-            </WrapPanel></StackPanel>
-           
+
     </DockPanel>
 
 </Window>

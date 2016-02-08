@@ -23,5 +23,14 @@ namespace A.T.O.M
         {
             InitializeComponent();
         }
+
+        private void Deconnexion(object sender, RoutedEventArgs e)
+        {
+            LoginPage login = new LoginPage();
+            DialogResult = false;
+            Close();
+            login.ShowDialog();
+
+        }
     }
 }
