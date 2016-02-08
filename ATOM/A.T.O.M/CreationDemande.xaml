@@ -24,6 +24,7 @@
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
+                <RowDefinition />
             </Grid.RowDefinitions>
 
             <Label HorizontalAlignment="Right">Id Patient :</Label>
@@ -33,10 +34,13 @@
             <TextBox Grid.Column="1" Grid.Row="1" Margin="5"></TextBox>
 
             <Label Grid.Row="2" HorizontalAlignment="Right">Date de Transport :</Label>
-            <TextBox Grid.Column="1" Grid.Row="2" Margin="5"></TextBox>
+            <DatePicker Grid.Row="2" Grid.Column="1" Margin="5,3,0,0"></DatePicker>
 
-            <Label Grid.Row="3" HorizontalAlignment="Right">Priorité :</Label>
-            <WrapPanel  Grid.Column="1" Grid.Row="3" Margin="7">
+            <Label Grid.Row="3" HorizontalAlignment="Right">Heure de Transport :</Label>
+            <TextBox Grid.Column="1" Grid.Row="3" Margin="5"></TextBox>
+
+            <Label Grid.Row="4" HorizontalAlignment="Right">Priorité :</Label>
+            <WrapPanel  Grid.Column="1" Grid.Row="4" Margin="7">
                 <RadioButton>1</RadioButton>
                 <RadioButton Margin="5,0,0,0">2</RadioButton>
                 <RadioButton Margin="5,0,0,0">3</RadioButton>
@@ -44,11 +48,11 @@
                 <RadioButton Margin="5,0,0,0">5</RadioButton>
             </WrapPanel>
 
-            <Label Grid.Row="4" HorizontalAlignment="Right">Type de Trajet :</Label>
-            <ComboBox Grid.Row="4" Grid.Column="1" Margin="5"></ComboBox>
+            <Label Grid.Row="5" HorizontalAlignment="Right">Type de Trajet :</Label>
+            <ComboBox Grid.Row="5" Grid.Column="1" Margin="5"></ComboBox>
 
-            <Label Grid.Row="5" HorizontalAlignment="Right">Conditions de Transport :</Label>
-            <WrapPanel Grid.Row="5" Grid.Column="1">
+            <Label Grid.Row="6" HorizontalAlignment="Right">Conditions de Transport :</Label>
+            <WrapPanel Grid.Row="6" Grid.Column="1">
                 <CheckBox Margin="5,7,0,0">Oxygène</CheckBox>
                 <CheckBox Margin="5,7,0,0">Contact</CheckBox>
                 <CheckBox Margin="5,7,0,0">Couveuse</CheckBox>
@@ -56,8 +60,8 @@
                 <CheckBox Margin="5,7,0,0">Air</CheckBox>
             </WrapPanel>
 
-            <Label Grid.Row="6" HorizontalAlignment="Right">Contexte:</Label>
-            <WrapPanel Grid.Row="6" Grid.Column="1">
+            <Label Grid.Row="7" HorizontalAlignment="Right">Contexte:</Label>
+            <WrapPanel Grid.Row="7" Grid.Column="1">
                 <CheckBox Margin="5,7,0,0">Accompagné</CheckBox>
                 <CheckBox Margin="5,7,0,0">A jeun</CheckBox>
                 <CheckBox Margin="5,7,0,0">Agité</CheckBox>
@@ -65,10 +69,10 @@
                 <CheckBox Margin="5,7,0,0">Bagages</CheckBox>
             </WrapPanel>
 
-            <Label Grid.Row="7" HorizontalAlignment="Right">Commentaire :</Label>
-            <TextBox Grid.Row="7" Grid.Column="1" Margin="5" TextWrapping="Wrap" MaxLength="216" MinHeight="130"></TextBox>
+            <Label Grid.Row="8" HorizontalAlignment="Right">Commentaire :</Label>
+            <TextBox Grid.Row="8" Grid.Column="1" Margin="5" TextWrapping="Wrap" MaxLength="216" MinHeight="130"></TextBox>
             
-            <WrapPanel Grid.Row="8" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <WrapPanel Grid.Row="9" Grid.ColumnSpan="2" HorizontalAlignment="Center">
                 <Button Margin="5" Width="100">Valider</Button>
                 <Button Margin="5" Width="100">Annuler</Button>
             </WrapPanel>
