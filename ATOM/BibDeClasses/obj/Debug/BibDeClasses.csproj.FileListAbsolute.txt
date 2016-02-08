@@ -16,6 +16,5 @@ C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\bin\Debug\n
 C:\Users\Joanny\Documents\IUT\Projet\Programmation\ATOM\BibDeClasses\obj\Debug\BibDeClasses.pdb
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\BibDeClasses\bin\Debug\BibDeClasses.dll
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\BibDeClasses\bin\Debug\BibDeClasses.pdb
-C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\BibDeClasses\obj\Debug\BibDeClasses.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\BibDeClasses\obj\Debug\BibDeClasses.dll
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\BibDeClasses\obj\Debug\BibDeClasses.pdb
