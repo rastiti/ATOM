@@ -17,6 +17,10 @@
                 <MenuItem Click="Deconnexion" Header="_Déconnexion"/>
             </MenuItem>
         </Menu>
+        <WrapPanel DockPanel.Dock="Top">
+            <Label Foreground="White">Connecté en tant que : </Label>
+            <TextBlock Foreground="White"></TextBlock>
+        </WrapPanel>
         <Grid >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>

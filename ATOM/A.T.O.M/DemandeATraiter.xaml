@@ -17,7 +17,10 @@
                 <MenuItem Click="Deconnexion" Header="_Déconnexion"/>
             </MenuItem>
         </Menu>
-        
+        <WrapPanel DockPanel.Dock="Top">
+            <Label Foreground="White">Connecté en tant que Régulateur : </Label>
+            <TextBlock Foreground="White"></TextBlock>
+        </WrapPanel>
         <StackPanel HorizontalAlignment="Center" DockPanel.Dock="Bottom">
             <WrapPanel VerticalAlignment="Center">
                 <Button Margin="5" Width="200" >Programmer</Button>
