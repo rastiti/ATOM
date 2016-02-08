@@ -20,6 +20,11 @@
                 <MenuItem Header="_Service de Soin"></MenuItem>
                 <MenuItem Header="_Ambulancier"></MenuItem>
             </MenuItem>
+            <MenuItem Header="Gestion Equipage">
+                <MenuItem Header="_Créer"/>
+                <MenuItem Header="_Modifier"/>
+                <MenuItem Header="_Supprimer"/>
+            </MenuItem>
         </Menu>
         
         <WrapPanel DockPanel.Dock="Top">
