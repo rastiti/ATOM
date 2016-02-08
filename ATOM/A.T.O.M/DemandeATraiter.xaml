@@ -24,7 +24,7 @@
                 <Button Margin="5" Grid.Column="1" Width="200" >Modifier</Button>
             </WrapPanel>
             <WrapPanel>
-                <Button Margin="5" Grid.Row="1" Width="200">Supprimer</Button>
+                <Button Margin="5" Grid.Row="1" MinWidth="200">Supprimer</Button>
                 <Button Margin="5" Grid.Column="1" Grid.Row="1" Width="200" >Annuler</Button>
             </WrapPanel>
         </StackPanel>
