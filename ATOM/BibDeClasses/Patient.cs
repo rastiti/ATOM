@@ -18,7 +18,6 @@ namespace BibDeClasses
         private float m_taille;
         private String m_infos;
 
-
         public int id { get { return m_id; } private set { m_id = value; } }
         public int nss { get { return m_nss; }private set { m_nss = value; } }
         public String nom { get { return m_nom; } private set { m_nom = value; } }
@@ -44,8 +43,5 @@ namespace BibDeClasses
 
     }
 }
-// essai 2
-//Essaiiiiii
-// bla
-// a
-//b
+
+
