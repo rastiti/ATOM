@@ -73,6 +73,15 @@
     <Compile Include="DemandeATraiter.xaml.cs">
       <DependentUpon>DemandeATraiter.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DemandeFinale.xaml.cs">
+      <DependentUpon>DemandeFinale.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FinalisationDemande.xaml.cs">
+      <DependentUpon>FinalisationDemande.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SuppressionEquipage.xaml.cs">
+      <DependentUpon>SuppressionEquipage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Validation.xaml.cs">
       <DependentUpon>Validation.xaml</DependentUpon>
     </Compile>
@@ -92,6 +101,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DemandeFinale.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FinalisationDemande.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="LoginPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -107,6 +124,10 @@
       <DependentUpon>LoginPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SuppressionEquipage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Validation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

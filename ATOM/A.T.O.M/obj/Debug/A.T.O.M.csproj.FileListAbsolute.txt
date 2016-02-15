@@ -43,3 +43,9 @@ C:\Users\Pierre\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.exe
 C:\Users\Pierre\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.pdb
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\CreationEquipage.g.cs
 C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\CreationEquipage.baml
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\DemandeFinale.g.cs
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\FinalisationDemande.g.cs
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\SuppressionEquipage.g.cs
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\DemandeFinale.baml
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\FinalisationDemande.baml
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\SuppressionEquipage.baml

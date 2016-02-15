@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace A.T.O.M.Properties
+namespace ATOM.Properties
 {
 
 
