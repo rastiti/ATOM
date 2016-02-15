@@ -13,10 +13,12 @@
         <StackPanel HorizontalAlignment="Center" DockPanel.Dock="Top">
             <Label>Nom de l'ambulancier 1 :</Label>
             <ComboBox></ComboBox>
+            
             <Label>Renseigner ambulancier 2 si nécessaire</Label>
             
             <Label>Nom de l'ambulancier 2 :</Label>
             <ComboBox></ComboBox>
+            
             <Label >Type de Véhicule</Label>
             <ComboBox></ComboBox>
             

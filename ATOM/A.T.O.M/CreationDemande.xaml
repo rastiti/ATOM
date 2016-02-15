@@ -41,7 +41,7 @@
 
             <Label Grid.Row="4" HorizontalAlignment="Right">Priorité :</Label>
             <WrapPanel  Grid.Column="1" Grid.Row="4" Margin="7">
-                <RadioButton >1</RadioButton>
+                <RadioButton>1</RadioButton>
                 <RadioButton Margin="5,0,0,0">2</RadioButton>
                 <RadioButton Margin="5,0,0,0">3</RadioButton>
                 <RadioButton Margin="5,0,0,0">4</RadioButton>
