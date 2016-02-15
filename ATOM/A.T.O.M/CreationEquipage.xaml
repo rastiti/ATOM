@@ -1,12 +1,13 @@
-﻿<Window x:Class="A.T.O.M.CreationEquipage"
+﻿<Window x:Class="ATOM.CreationEquipage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:A.T.O.M"
+        xmlns:local="clr-namespace:ATOM"
         mc:Ignorable="d"
         Title="ATOM - Création d'un nouvel Equipage" Height="300" Width="400"
-        Background="#4682B4">
+        Background="#4682B4"
+        Icon="/Images/Logo.ico">
     <DockPanel>
         <Label FontSize="25" FontWeight="Bold" DockPanel.Dock="Top" HorizontalAlignment="Center">Création Equipage</Label>
 

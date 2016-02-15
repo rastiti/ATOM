@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace A.T.O.M
+namespace ATOM
 {
     /// <summary>
     /// Logique d'interaction pour DemandeATraiter.xaml
@@ -40,9 +40,7 @@ namespace A.T.O.M
 
         private void CreationEquipage(object sender, RoutedEventArgs e)
         {
-            CreationEquipage crea = new CreationEquipage();
-            DialogResult = false;
-            Close();
+            CreationEquipage crea = new CreationEquipage();          
             crea.ShowDialog();
         }
 
@@ -52,6 +50,19 @@ namespace A.T.O.M
             DialogResult = false;
             Close();
             demande.ShowDialog();
+        }
+
+        private void DemandeFinale(object sender, RoutedEventArgs e)
+        {
+            DemandeFinale demande = new DemandeFinale();
+            DialogResult = false;
+            Close();
+            demande.ShowDialog();
+        }
+        private void SuppressionEquipage(object sender, RoutedEventArgs e)
+        {
+            SuppressionEquipage suppression = new SuppressionEquipage();
+            suppression.ShowDialog();
         }
     }
 }

@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace A.T.O.M
+namespace ATOM
 {
     /// <summary>
     /// Logique d'interaction pour FinalisationDemande.xaml
@@ -22,6 +22,14 @@ namespace A.T.O.M
         public FinalisationDemande()
         {
             InitializeComponent();
+        }
+
+        private void Annuler(object sender, RoutedEventArgs e)
+        {
+            
+            DialogResult = false;
+            Close();
+            
         }
     }
 }

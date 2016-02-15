@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace A.T.O.M
+namespace ATOM
 {
     /// <summary>
     /// Logique d'interaction pour CreationEquipage.xaml
@@ -27,13 +27,9 @@ namespace A.T.O.M
         private void Annuler(object sender, RoutedEventArgs e)
         {
            
-
-            DemandeATraiter demande = new DemandeATraiter();
             DialogResult = false;
             Close();
-            demande.ShowDialog();
-            
-            
+                      
         }
     }
 }

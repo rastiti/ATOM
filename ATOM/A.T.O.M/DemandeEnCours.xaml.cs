@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace A.T.O.M
+namespace ATOM
 {
     /// <summary>
     /// Logique d'interaction pour DemandeEnCours.xaml
@@ -67,6 +67,14 @@ namespace A.T.O.M
         private void DemandeATraiter(object sender, RoutedEventArgs e)
         {
             DemandeATraiter demande = new DemandeATraiter();
+            DialogResult = false;
+            Close();
+            demande.ShowDialog();
+        }
+
+        private void DemandeFinale(object sender, RoutedEventArgs e)
+        {
+            DemandeFinale demande = new DemandeFinale();
             DialogResult = false;
             Close();
             demande.ShowDialog();

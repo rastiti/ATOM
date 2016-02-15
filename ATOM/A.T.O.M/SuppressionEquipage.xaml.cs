@@ -15,23 +15,19 @@ using System.Windows.Shapes;
 namespace ATOM
 {
     /// <summary>
-    /// Logique d'interaction pour Validation.xaml
+    /// Logique d'interaction pour SuppressionEquipage.xaml
     /// </summary>
-    public partial class Validation : Window
+    public partial class SuppressionEquipage : Window
     {
-        public Validation()
+        public SuppressionEquipage()
         {
             InitializeComponent();
         }
 
         private void Annuler(object sender, RoutedEventArgs e)
         {
-            DialogResult=false;
-        }
-
-        private void Valider(object sender, RoutedEventArgs e)
-        {
-            //test pour savoir si la personne a accès a tel fenetre
+            DialogResult = false;
+            Close();
         }
     }
 }

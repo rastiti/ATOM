@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace A.T.O.M
+namespace ATOM
 {
     /// <summary>
     /// Logique d'interaction pour DemandeFinale.xaml

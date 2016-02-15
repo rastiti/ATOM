@@ -1,9 +1,9 @@
-﻿<Window x:Class="A.T.O.M.DemandeEnCours"
+﻿<Window x:Class="ATOM.DemandeEnCours"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:A.T.O.M"
+        xmlns:local="clr-namespace:ATOM"
         Title="ATOM - Demande en Cours" Height="350" Width="525"
         Icon="/Images/Logo.ico"
         Background="#4682B4"
@@ -18,7 +18,7 @@
             </MenuItem>
             <MenuItem Header="Dégradé">
                 <MenuItem Header="_Régulateur" Click="DemandeATraiter"/>
-                <MenuItem Header="_Ambulancier"/>
+                <MenuItem Header="_Ambulancier" Click="DemandeFinale"/>
             </MenuItem>
         </Menu>
         <WrapPanel DockPanel.Dock="Top">
