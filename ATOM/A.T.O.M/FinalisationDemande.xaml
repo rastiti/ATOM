@@ -29,14 +29,18 @@
         <DatePicker Grid.Row="1" Grid.Column="1"></DatePicker>
         
         <Label Grid.Row="2" HorizontalAlignment="Right">Heure Départ Réelle:</Label>
-        <TextBox Margin="5" Grid.Column="1" Grid.Row="2"></TextBox>
-        
+        <WrapPanel Margin="5" Grid.Column="1" Grid.Row="2">
+            <TextBox Width="25" ></TextBox>
+            <Label>h</Label>
+            <TextBox Width="25"></TextBox>
+            <Label>min</Label>
+        </WrapPanel>
         <Label Grid.Row="3" HorizontalAlignment="Right">Date Arrivée Réelle</Label>
         <DatePicker Grid.Row="3" Grid.Column="1"></DatePicker>
 
         <Label Grid.Row="4" HorizontalAlignment="Right">Heure Arrivée Réelle :</Label>
-        <TextBox Grid.Column="1" Grid.Row="4" Margin="5"></TextBox>
-
+        <TextBox Grid.Column="1" Grid.Row="4" Margin="5"  ></TextBox>
+      
         <Label Grid.Row="5" HorizontalAlignment="Right">Observation :</Label>
         <TextBox Grid.Column="1" Grid.Row="5" Margin="5"></TextBox>
 
