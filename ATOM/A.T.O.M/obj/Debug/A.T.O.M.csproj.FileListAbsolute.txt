@@ -41,3 +41,5 @@ C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.pdb
 C:\Users\Pierre\Documents\GitHub\ATOM\ATOM\A.T.O.M\bin\Debug\A.T.O.M.exe.config
 C:\Users\Pierre\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.exe
 C:\Users\Pierre\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\A.T.O.M.pdb
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\CreationEquipage.g.cs
+C:\Users\ASUS\Documents\GitHub\ATOM\ATOM\A.T.O.M\obj\Debug\CreationEquipage.baml

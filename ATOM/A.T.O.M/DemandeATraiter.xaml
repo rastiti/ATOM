@@ -21,7 +21,7 @@
                 <MenuItem Header="_Ambulancier"></MenuItem>
             </MenuItem>
             <MenuItem Header="Gestion Equipage">
-                <MenuItem Header="_Créer"/>
+                <MenuItem Header="_Créer" Click="CreationEquipage"/>
                 <MenuItem Header="_Modifier"/>
                 <MenuItem Header="_Supprimer"/>
             </MenuItem>
@@ -38,7 +38,7 @@
             </WrapPanel>
             <WrapPanel>
                 <Button Margin="5" Grid.Row="1" MinWidth="200">Supprimer</Button>
-                <Button Margin="5" Grid.Column="1" Grid.Row="1" Width="200" >Annuler</Button>
+                <Button Margin="5" Grid.Column="1" Grid.Row="1" Width="200" Click="Annuler" >Annuler</Button>
             </WrapPanel>
         </StackPanel>
         <Grid>

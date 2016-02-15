@@ -67,6 +67,9 @@
     <Compile Include="CreationDemande.xaml.cs">
       <DependentUpon>CreationDemande.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CreationEquipage.xaml.cs">
+      <DependentUpon>CreationEquipage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DemandeATraiter.xaml.cs">
       <DependentUpon>DemandeATraiter.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <DependentUpon>Validation.xaml</DependentUpon>
     </Compile>
     <Page Include="CreationDemande.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreationEquipage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

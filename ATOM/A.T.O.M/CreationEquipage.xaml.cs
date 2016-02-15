@@ -15,35 +15,25 @@ using System.Windows.Shapes;
 namespace A.T.O.M
 {
     /// <summary>
-    /// Logique d'interaction pour DemandeATraiter.xaml
+    /// Logique d'interaction pour CreationEquipage.xaml
     /// </summary>
-    public partial class DemandeATraiter : Window
+    public partial class CreationEquipage : Window
     {
-        public DemandeATraiter()
+        public CreationEquipage()
         {
             InitializeComponent();
         }
 
-        private void Deconnexion(object sender, RoutedEventArgs e)
-        {
-            LoginPage login = new LoginPage();
-            DialogResult = false;
-            Close();
-            login.ShowDialog();
-
-        }
-
         private void Annuler(object sender, RoutedEventArgs e)
         {
-            
-        }
+           
 
-        private void CreationEquipage(object sender, RoutedEventArgs e)
-        {
-            CreationEquipage crea = new CreationEquipage();
+            DemandeATraiter demande = new DemandeATraiter();
             DialogResult = false;
             Close();
-            crea.ShowDialog();
+            demande.ShowDialog();
+            
+            
         }
     }
 }
