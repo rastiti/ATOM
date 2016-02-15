@@ -45,5 +45,13 @@ namespace A.T.O.M
             Close();
             crea.ShowDialog();
         }
+
+        private void DemandeEnCours(object sender, RoutedEventArgs e)
+        {
+            DemandeEnCours demande = new DemandeEnCours();
+            DialogResult = false;
+            Close();
+            demande.ShowDialog();
+        }
     }
 }

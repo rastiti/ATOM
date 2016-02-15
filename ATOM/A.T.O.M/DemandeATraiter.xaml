@@ -17,7 +17,7 @@
                 <MenuItem Click="Deconnexion" Header="_Déconnexion"/>
             </MenuItem>
             <MenuItem Header="Dégradé">
-                <MenuItem Header="_Service de Soin"></MenuItem>
+                <MenuItem Header="_Service de Soin" Click="DemandeEnCours"></MenuItem>
                 <MenuItem Header="_Ambulancier"></MenuItem>
             </MenuItem>
             <MenuItem Header="Gestion Equipage">

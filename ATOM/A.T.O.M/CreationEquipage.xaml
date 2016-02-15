@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A.T.O.M"
         mc:Ignorable="d"
-        Title="ATOM - Création d'un nouvel Equipage" Height="300" Width="300"
+        Title="ATOM - Création d'un nouvel Equipage" Height="300" Width="400"
         Background="#4682B4">
     <DockPanel>
         <Label FontSize="25" FontWeight="Bold" DockPanel.Dock="Top" HorizontalAlignment="Center">Création Equipage</Label>

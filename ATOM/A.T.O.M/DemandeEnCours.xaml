@@ -17,7 +17,7 @@
                 <MenuItem Click="Deconnexion" Header="_Déconnexion"/>
             </MenuItem>
             <MenuItem Header="Dégradé">
-                <MenuItem Header="_Régulateur"/>
+                <MenuItem Header="_Régulateur" Click="DemandeATraiter"/>
                 <MenuItem Header="_Ambulancier"/>
             </MenuItem>
         </Menu>

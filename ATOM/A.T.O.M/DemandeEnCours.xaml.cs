@@ -63,5 +63,13 @@ namespace A.T.O.M
             login.ShowDialog();
 
         }
+
+        private void DemandeATraiter(object sender, RoutedEventArgs e)
+        {
+            DemandeATraiter demande = new DemandeATraiter();
+            DialogResult = false;
+            Close();
+            demande.ShowDialog();
+        }
     }
 }
