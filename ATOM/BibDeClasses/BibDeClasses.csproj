@@ -52,6 +52,7 @@
     <Compile Include="Service.cs" />
     <Compile Include="TypeTransport.cs" />
     <Compile Include="Vehicule.cs" />
+	<Compile Include="DataBaseManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Logo.ico" />
