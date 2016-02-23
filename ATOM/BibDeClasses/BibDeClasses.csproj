@@ -46,6 +46,7 @@
     <Compile Include="ConditionTransport.cs" />
     <Compile Include="Contexte.cs" />
     <Compile Include="Demande.cs" />
+	<Compile Include="DataBaseManager.cs" />
     <Compile Include="Equipage.cs" />
     <Compile Include="ModeTransport.cs" />
     <Compile Include="Patient.cs" />
@@ -53,7 +54,6 @@
     <Compile Include="Service.cs" />
     <Compile Include="TypeTransport.cs" />
     <Compile Include="Vehicule.cs" />
-    <Compile Include="DataBaseManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\Logo.ico" />
