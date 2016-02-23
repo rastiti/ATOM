@@ -45,8 +45,8 @@
     <Compile Include="Ambulancier.cs" />
     <Compile Include="ConditionTransport.cs" />
     <Compile Include="Contexte.cs" />
+    <Compile Include="DataBaseManager.cs" />
     <Compile Include="Demande.cs" />
-	<Compile Include="DataBaseManager.cs" />
     <Compile Include="Equipage.cs" />
     <Compile Include="ModeTransport.cs" />
     <Compile Include="Patient.cs" />
