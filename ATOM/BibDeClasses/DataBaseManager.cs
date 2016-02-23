@@ -5,8 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BibDeClasses
-{
+namespace BibDeClasses{
     public class DataBaseManager{
 
         private static DataBaseManager instance = null;
@@ -30,12 +29,12 @@ namespace BibDeClasses
             return instance;
         }
 
-        public Boolean executerRequete(String requete){
+        public dynamic executerRequete(String requete){
             if(!OpenConnection())
                 return false;
             MySqlCommand cmd = new MySqlCommand(requete, connection);
             cmd.ExecuteNonQuery();
-            if (!CloseConnection())
+            if(!CloseConnection())
                 return false;
             return true;
         }
@@ -44,7 +43,7 @@ namespace BibDeClasses
             try{
                 connection.Open();
                 return true;
-            }catch (MySqlException ex){
+            }catch(MySqlException ex){
                 switch (ex.Number){
                     case 0:
                         //0: Cannot connect to server.
@@ -64,7 +63,7 @@ namespace BibDeClasses
             try{
                 connection.Close();
                 return true;
-            }catch (MySqlException e){
+            }catch(MySqlException e){
                 Console.WriteLine("Probleme fermeture connexion base de données.");
                 return false;
             }
