@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BibDeClasses;
 
 namespace ATOM
 {
@@ -32,15 +33,33 @@ namespace ATOM
 
         private void Valider(object sender, RoutedEventArgs e)
         {
-            //test pour savoir si la personne a accès a tel fenetre
 
-            //if(l'utilisateur est régulateur ou du service de soin )
-            DemandeATraiter demande = new DemandeATraiter();
-            Close();
-            if (demande.ShowDialog() == true)
+
+            DataBaseManager dbm = DataBaseManager.getInstance();
+            String log = login.Text;
+            String pass = password.Password;
+            Console.WriteLine("login: " + log + " Password: " + pass);
+            String query = ("SELECT * FROM utilisateur WHERE Login='" + log + "' AND Mdp='" + pass + "';");
+            Console.WriteLine(query);
+            var reader = dbm.executerRequete(query);
+            Console.WriteLine(reader);
+
+            if (reader == true)
             {
-                   
+                //test pour savoir si la personne a accès a quelle fenetre
+
+                //if(l'utilisateur est régulateur ou du service de soin )
+                DemandeATraiter demande = new DemandeATraiter();
+                Close();
+                demande.ShowDialog();
             }
+            else
+            {
+                MessageBox.Show("Identifiants incorrects");
+            }
+
+
+
         }
     }
 }
