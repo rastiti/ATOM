@@ -46,4 +46,7 @@ Temporary Items
 *.resources
 *.pdb
 *.cache
-ATOM/A.T.O.M/obj/Debug/LoginPage.g.cs
+*.i.cs
+*.g.cs
+ATOM/A.T.O.M/obj/Debug/ATOM.csproj.FileListAbsolute.txt
+*.cache
