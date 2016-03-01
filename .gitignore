@@ -50,3 +50,9 @@ Temporary Items
 *.g.cs
 ATOM/A.T.O.M/obj/Debug/ATOM.csproj.FileListAbsolute.txt
 ATOM/BibDeClasses/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.suo
+ATOM/A.T.O.M/obj/Debug/LoginPage.g.i.cs
+ATOM/A.T.O.M/obj/Debug/A.T.O.M_MarkupCompile.i.cache
+ATOM/.vs/ATOM/v14/.suo
+ATOM/A.T.O.M/obj/Debug/A.T.O.M_MarkupCompile.i.lref
+ATOM/A.T.O.M/obj/Debug/ATOM.csproj.FileListAbsolute.txt
