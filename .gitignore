@@ -49,4 +49,4 @@ Temporary Items
 *.i.cs
 *.g.cs
 ATOM/A.T.O.M/obj/Debug/ATOM.csproj.FileListAbsolute.txt
-*.cache
+ATOM/BibDeClasses/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
