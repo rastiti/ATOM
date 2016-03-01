@@ -42,16 +42,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.exe
-ATOM/A.T.O.M/bin/Debug/A.T.O.M.exe
-*.exe
 *.suo
-*.exe
 *.resources
 *.pdb
 *.cache
-*.txt
-*.cache
 ATOM/A.T.O.M/obj/Debug/LoginPage.g.cs
-ATOM/BibDeClasses/obj/Debug/BibDeClasses.dll
-ATOM/BibDeClasses/obj/Debug/BibDeClasses.dll
-ATOM/BibDeClasses/bin/Debug/BibDeClasses.dll
