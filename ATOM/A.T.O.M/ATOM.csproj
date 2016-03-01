@@ -170,6 +170,12 @@
   <ItemGroup>
     <Resource Include="Images\ambulanceRetouchee.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BibDeClasses\BibDeClasses.csproj">
+      <Project>{d10b177c-df07-446d-913b-e67e6407c73c}</Project>
+      <Name>BibDeClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
