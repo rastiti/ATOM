@@ -120,6 +120,13 @@
     <Compile Include="DemandeEnCours.xaml.cs">
       <DependentUpon>DemandeEnCours.xaml</DependentUpon>
     </Compile>
+	<Compile Include="GestionComptes.xaml.cs">
+      <DependentUpon>GestionComptes.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GestionComptes.xaml.cs">
+      <DependentUpon>GestionComptes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
       <SubType>Code</SubType>
